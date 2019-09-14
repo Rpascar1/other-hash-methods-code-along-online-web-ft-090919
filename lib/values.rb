@@ -8,7 +8,3 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
-def get_the_values(groceries)
-  groceris.each do|category,value|
-  p value
-end
