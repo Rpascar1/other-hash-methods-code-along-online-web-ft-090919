@@ -9,7 +9,5 @@ require 'pry'
 # }
 
  def get_the_values(groceries)
-   groceries.each do |category, value_array|
-  p  value_array.join
- end
+   groceries.values.flatten
 end
