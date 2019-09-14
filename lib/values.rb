@@ -8,6 +8,8 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
-def get_the_values(groceries)
-   groceries.each {|category,value| p value}
+ def get_the_values(groceries)
+   groceries.each do |category,value|
+  p  value.join(" ")
+ end
 end
