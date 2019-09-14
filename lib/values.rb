@@ -8,8 +8,9 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
+
  def get_the_values(groceries)
    groceries.each do |category,value|
-  p  value.join(" ")
+  p  value.split.join(" ")
  end
 end
