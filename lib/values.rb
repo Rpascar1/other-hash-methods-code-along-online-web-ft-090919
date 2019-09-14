@@ -10,4 +10,4 @@ require 'pry'
 
 def get_the_values(groceries)
    groceries.each {|category,value| p value}
- end
+end
